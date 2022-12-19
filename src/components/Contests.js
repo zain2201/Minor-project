@@ -21,7 +21,7 @@ useEffect( () => {fetchdata()}
      start_time=moment(start_time).format('LLLL');
      end_time=moment(end_time).format('LLLL');
      let url=contest.url;
-     return (<div><a href={url}>
+     return (<div><a href={url} target="_blank">
      <p>Name : {name}</p> 
      <p>Start Time: {start_time}</p>
      <p>End Time : {end_time}</p>
